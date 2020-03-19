@@ -7,7 +7,23 @@ body {
     font-weight: lighter;
 }
 
+hr {
+    border-bottom: 3px solid #d0492a;
+}
 
+/*--------------------------------------------Other useful classes*/
+
+.justify-text {
+    text-align: justify;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+}
 
 /*--------------------------------------------Heading*/
 
@@ -67,13 +83,160 @@ body {
     left: 30%;
 }
 
+/*--------------------------------------------Home Welcome Section*/
+
+.carousel.slide {
+    padding-bottom: 30px;
+}
+
+.carousel-caption {
+    text-align: left;
+    padding-bottom: 15%;
+    left: 10%;
+    right: 10%;
+}
+
+.carousel-caption h5 {
+    font-size: 25px;
+    text-transform: uppercase;
+    padding-top: 10%;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.paw-title-caption {
+    padding: 0 5px;
+}
+
+.caption-background-slide {
+    background-color: rgba(0, 0, 0, 0.52);
+    width: 380px;
+    height: 150px;
+    text-align: center;
+}
+
+.welcome-img-pets {
+    width: 100%;
+    align-items: center;
+}
+
+.welcome-img-text {
+    font-family:'Roboto Condensed', sans-serif; 
+    color: #143370;
+}
+
+.welcome-img-text i {
+    padding: 0 10px;
+}
+
+.welcome-name-veterinary {
+    font-size: 65px;
+    color: #299062;
+}
+
+.welcome-text {
+    color: #b3a792;
+    text-transform: uppercase;
+}
+
+.home-p-welcome {
+    text-align: justify;
+    padding: 0 30px;
+}
+.padding-container-welcome {
+    padding-top: 2%;
+}
+
+.veterinary-council-logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 5%;
+}
+
+/* ----------------------------------------Home Appointment Section */
+
+.appointment-section-color {
+    background-color: #80c130;
+    color: #fafafa;
+    min-height: 150px;
+    margin-top: 30px;
+}
+
+.appointment-title {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.appointment-section-color div p {
+    font-size: 18px;
+}
+
+.appointment-section-color div p a {
+    color: #156908;
+    font-weight: bolder;
+}
+
+.appointment-section-color div p a:hover {
+    color: #0b4702;
+    font-weight: bolder; 
+    text-decoration: none;
+}
+
+.appointment-emergency-image {
+    width: 400px;
+    height: auto;
+    border-radius: 30%;
+    margin: 20px 0;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ----------------------------------------Home Emergency Section */
+
+.emergency-section-color {
+    background-color: #ff9901;
+    color: #fafafa;
+    min-height: 150px;
+}
+
+.emergency-title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.emergency-section-color div p {
+    font-size: 18px;
+}
+
+.emergency-phone-number {
+    background-color: #b02e07;
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    display: block;
+}
+
+.emergency-phone-icon {
+    padding: 15px 5px;
+}
+
 /* ----------------------------------------Footer */
 
 footer {
     background-color: #343a40;
     color: #fafafa;
     min-height: 120px;
-    margin-top: 50px;
     padding: 0;
 }
 
