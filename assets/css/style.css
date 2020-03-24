@@ -4,7 +4,7 @@ html, body { overflow-x: hidden; }
 
 body {
     font-family: 'Sawarabi Gothic', sans-serif;
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 hr {
@@ -23,6 +23,10 @@ hr {
 
 .uppercase-text {
     text-transform: uppercase;
+}
+
+.description-text-padding {
+    padding: 30px 15px;
 }
 
 /*--------------------------------------------Heading*/
@@ -83,7 +87,7 @@ hr {
     left: 30%;
 }
 
-/*--------------------------------------------Home Welcome Section*/
+/*--------------------------------------------Home Page / Welcome Section*/
 
 .carousel.slide {
     padding-bottom: 30px;
@@ -162,7 +166,7 @@ hr {
     top: 5%;
 }
 
-/* ----------------------------------------Home Appointment Section */
+/* ----------------------------------------Home Page / Appointment Section */
 
 .appointment-section-color {
     background-color: #80c130;
@@ -202,7 +206,7 @@ hr {
     margin-right: auto;
 }
 
-/* ----------------------------------------Home Emergency Section */
+/* ----------------------------------------Home Page / Emergency Section */
 
 .emergency-section-color {
     background-color: #ff9901;
@@ -237,9 +241,241 @@ hr {
     padding-bottom: 30px;
 }
 
+/* ----------------------------------------About Us Page*/
 
+.about-img {
+    padding: 30px 15px;
+    border-radius: 20%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
 
-/* ----------------------------------------Scroll botton */
+.about-text {
+    padding-top: 3%;
+}
+
+/* ----------------------------------------About Us Page / Our Mision Section*/
+
+.our-mision-section {
+   background-color: #d7ecff; 
+   min-height: 100px;
+}
+.about-img-two {
+    padding: 30px 15px;
+    border-radius: 20%;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: auto;
+}
+.our-mision-section-text {
+    padding-top: 3%;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 3%;
+}
+
+.our-mision-title-text {
+    font-size: 26px;
+    color: #0c1f86;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+
+.our-mision-block-divider {
+    width: 50%;
+    height: 3px;
+    border: 0;
+    background-color: #299062;
+}
+
+.our-mision--text {
+    font-size: 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #150c42;
+}
+
+/* ----------------------------------------About Us Page / Our Core Values Section*/ 
+
+.our-core-values-section {
+    background-color: #f4f3f0;
+    min-height: 150px;
+    padding-bottom: 30px;
+}
+
+.img-core-values {
+    padding: 10px 15px;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+
+.our-core-values-title-text {
+    font-size: 26px;
+    color: #6c3c08;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.our-core-values-block-divider {
+    width: 70%;
+    height: 3px;
+    border: 0;
+    background-color: #ca2727;
+}
+.our-core-values-text {
+    color: #342415;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+.core-values-icon {
+    color: #ca2727;
+}
+
+/* ----------------------------------------About Us Page / Our Staff*/ 
+
+.vet-image {
+    width: 85%;
+    height: auto;
+    border-radius: 50%;
+    padding: 30px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+}
+
+.img-vet-border img {
+    padding: 0;
+    border: 4px solid lightcoral;
+}
+
+.our-staff-section {
+        background: url('../images/paws_background_t.png') no-repeat center center fixed;
+        min-height: 200px;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        padding-bottom: 30px;
+}
+
+.vet-names {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.background-title-vets {
+    background-color: #fff;
+}
+
+.background-title-vets h4 {
+    font-size: 26px;
+    color: #299062;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+/* ----------------------------------------Services Page*/
+
+.service-section {
+    background-color: #6c757d;
+    min-height: 150px;
+    padding: 30px 15px;
+    color: #fafafa;
+}
+
+.img-services-facilities {
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.facilities-section {
+    background-color: #80c130;
+    min-height: 150px;
+    padding: 30px 15px;
+    color: #fafafa;
+}
+
+.services-facilities-title {
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+
+.services-block-divider {
+    width: 80%;
+    height: 3px;
+    border: 0;
+    background-color: #363938;
+}
+
+.facilities-block-divider {
+    width: 80%;
+    height: 3px;
+    border: 0;
+    background-color: #188e07;
+}
+
+.text-paragraph-services-facilities {
+    font-size: 18px;
+}
+ .icon-paw-list {
+     padding-right: 8px;
+ }
+
+/* ----------------------------------------Question section + button */
+
+.question-assistance-area {
+    background-color: #17a2b8;
+    min-height: 80px;
+    padding: 30px 25px 20px;
+    color: #fafafa;
+}
+
+.question-assistance-text {
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    display: inline-block;
+}
+
+.question-assistance-icon {
+    font-size: 40px;
+    padding-right: 10px; 
+    display: inline-block;
+}
+
+.question-assistance-button {
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    width: 120px;
+    height: auto;
+}
+
+/* ----------------------------------------Scroll button */
 
 .scroll-button-top {
     width: 30px;
@@ -316,7 +552,7 @@ footer.container-fluid {
 }
 
 .social-media-icons {
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 13px;
 }
 
@@ -374,3 +610,10 @@ footer.container-fluid {
         font-size: 12px;
     }
   }
+
+  @media screen and (max-width: 1300px) {
+    footer h5 {
+        text-align: center;
+        font-size: 18px;
+    }
+}
