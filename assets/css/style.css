@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Sawarabi+Gothic&display=swap');
 
+/* solution from https://stackoverflow.com/ */
+
 html, body { overflow-x: hidden; }
+
+/* End comment */
 
 body {
     font-family: 'Sawarabi Gothic', sans-serif;
@@ -363,6 +367,8 @@ hr {
     border: 4px solid lightcoral;
 }
 
+/* resource from https://www.w3schools.com/ */
+
 .our-staff-section {
         background: url('../images/paws_background_t.png') no-repeat center center fixed;
         min-height: 200px;
@@ -372,6 +378,8 @@ hr {
         background-size: cover;
         padding-bottom: 30px;
 }
+
+/* End comment */
 
 .vet-names {
     font-size: 20px;
@@ -397,7 +405,7 @@ ul {
 /* ----------------------------------------Services Page*/
 
 .service-section {
-    background-color: #6c757d;
+    background-color: #2e5170;
     min-height: 150px;
     padding: 30px 15px;
     color: #fafafa;
@@ -426,7 +434,7 @@ ul {
     width: 80%;
     height: 3px;
     border: 0;
-    background-color: #363938;
+    background-color: #b6bc00;
 }
 
 .facilities-block-divider {
@@ -442,6 +450,108 @@ ul {
  .icon-paw-list {
      padding-right: 8px;
  }
+
+/* ----------------------------------------Pet Guide Page */
+
+.pet-guide-img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    border-radius: 20%;
+}
+
+.vaccination-section {
+    background-color: #c4e3ff;
+    min-height: 150px;
+    padding: 30px 15px;
+    color: #0a1758;
+}
+
+.vaccination-section h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vaccination-section h4 {
+    font-weight: bold;
+}
+
+.vaccination-section p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.vaccination-section ul {
+    font-size: 18px;
+}
+
+.passport-microchipping-section {
+    background-color: #2e5170;
+    min-height: 150px;
+    padding: 30px 15px;
+    color: #fafafa;
+}
+
+.passport-microchipping-section h4 {
+    font-weight: bold;
+}
+
+.passport-microchipping-section p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.passport-microchipping-section a,
+.passport-microchipping-section a:link {
+    color: #f46700;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.passport-microchipping-section a:hover {
+    color: #b6bc00;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.neutering-parasite-control-section {
+    background-color: #ff9901;
+    min-height: 150px;
+    padding: 30px 15px;
+    color: #fafafa;
+}
+
+.neutering-parasite-control-section h4 {
+    font-weight: bold;
+}
+
+.neutering-parasite-control-section p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.vacination-hr-color {
+    width: 90%;
+    height: 3px;
+    border: 0;
+    background-color: #076e8e;
+}
+
+.passport-microchipping-hr-color {
+    width: 90%;
+    height: 3px;
+    border: 0;
+    background-color: #f46700;
+}
+
+.neutering-parasite-control-hr-color {
+    width: 90%;
+    height: 3px;
+    border: 0;
+    background-color: #e43f19;
+}
 
 /* ----------------------------------------Question section + button */
 
@@ -475,6 +585,44 @@ ul {
     height: auto;
 }
 
+/* ----------------------------------------Contact Us Page */
+
+.center-form {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.center-form label {
+    font-size: 18px;
+}
+
+.color-contact-form {
+    color: #3b434b;
+    font-weight: bold;
+}
+
+.description-text-padding a {
+    color: #299062;
+}
+
+.description-text-padding a:hover {
+    color: #d0492a;
+    text-decoration: none;
+}
+
+.form-control {
+    border: 1.5px solid #299062;
+}
+
+.contact-form-block {
+    width: 60%;
+    height: 3px;
+    border: 0;
+    background-color: #299062;
+}
+
 /* ----------------------------------------Scroll button */
 
 .scroll-button-top {
@@ -484,10 +632,14 @@ ul {
     opacity: 0.8;
 }
 
+/* resource from https://www.w3schools.com/ */
+
 .scroll-button-top:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
+
+/* End comment */
 
 /* ----------------------------------------Footer */
 
@@ -565,7 +717,7 @@ footer.container-fluid {
     color: #ff9901;
 }
 
-/* ----------------------------------------Key Frames*/
+/* ----------------------------------------Key Frames / resource from https://www.w3schools.com/ */
 
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
