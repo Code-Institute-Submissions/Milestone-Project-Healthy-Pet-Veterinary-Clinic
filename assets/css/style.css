@@ -154,7 +154,7 @@ hr {
 
 .home-p-welcome {
     text-align: justify;
-    padding: 0 30px;
+    padding: 0;
 }
 .padding-container-welcome {
     padding-top: 2%;
@@ -304,6 +304,7 @@ hr {
     font-size: 24px;
     font-family: 'Roboto Condensed', sans-serif;
     color: #150c42;
+    padding: 0 15px;
 }
 
 /* ----------------------------------------About Us Page / Our Core Values Section*/ 
@@ -342,7 +343,7 @@ hr {
 .our-core-values-text {
     color: #342415;
     font-size: 18px;
-    padding: 0 15px;
+    padding: 0;
 }
 
 .core-values-icon {
