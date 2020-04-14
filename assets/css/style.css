@@ -262,7 +262,7 @@ hr {
     padding-top: 3%;
 }
 
-/* ----------------------------------------About Us Page / Our Mision Section*/
+/* ----------------------------------------About Us Page / Our Mission Section*/
 
 .our-mision-section {
    background-color: #d7ecff; 
@@ -343,7 +343,7 @@ hr {
 .our-core-values-text {
     color: #342415;
     font-size: 18px;
-    padding: 0;
+    padding: 0 15px;
 }
 
 .core-values-icon {
@@ -533,7 +533,7 @@ ul {
     padding-right: 15px;
 }
 
-.vacination-hr-color {
+.vaccination-hr-color {
     width: 90%;
     height: 3px;
     border: 0;
