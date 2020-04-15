@@ -2,6 +2,8 @@
 
 This project is a good example of a mobile first website that would suit the needs for any veterinary clinic that wants to offer a window to show their services online.
 
+Website URL: <a href="https://cotebarrientos.github.io/Milestone-Project-Healthy-Pet-Veterinary-Clinic/index.html" target="_blank">https://cotebarrientos.github.io/Milestone-Project-Healthy-Pet-Veterinary-Clinic/index.html</a>
+
 ## UX
 
 ### User Stories
@@ -48,12 +50,41 @@ Wireframes file: <a href="https://github.com/cotebarrientos/Milestone-Project-He
 
 - <a href="https://html.spec.whatwg.org/multipage/" target="_blank">HTML</a>
     - The project uses **HTML5** to define the structure of this website.
+
 - <a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank">CSS</a>
     - The project uses **CSS3** to add styling to the website.
+
 - <a href="https://getbootstrap.com/" target="_blank">Bootstrap</a>
     - The project uses **Bootstrap** version 4.4.1 , to build responsive website.
 
+- <a href="https://git-scm.com/" target="_blank">Git</a>
+    - The project uses **Git** to control the different versions and history of the code.
+
+- <a href="https://github.com/" target="_blank">GitHub</a>
+    - The project uses **GitHub** to host the source code, and deploy the website using GitHub pages.
+
+- <a href="https://www.adobe.com/ie/products/photoshop.html?gclid=EAIaIQobChMItoPHydjo6AIVGLLtCh3EKAqWEAAYASAAEgKc9PD_BwE&sdid=88X75SKS&mv=search&ef_id=EAIaIQobChMItoPHydjo6AIVGLLtCh3EKAqWEAAYASAAEgKc9PD_BwE:G:s&s_kwcid=AL!3085!3!340674288378!e!!g!!photoshop" target="_blank">Adobe Photoshop</a>
+    - The project uses **Adobe Photoshop CS6** portable version 13.0.0, to improve the images used in the website.
+
+- <a href="https://www.adobe.com/ie/products/illustrator.html?gclid=EAIaIQobChMI7sax79jo6AIVRuztCh1rOgpzEAAYASAAEgJWMPD_BwE&sdid=88X75SKS&mv=search&ef_id=EAIaIQobChMI7sax79jo6AIVRuztCh1rOgpzEAAYASAAEgJWMPD_BwE:G:s&s_kwcid=AL!3085!3!340697722021!e!!g!!adobe%20illustrator" target="_blank">Adobe Illustrator</a>
+    - The project uses **Adobe Illustrator CS6** portable version 16.0.0, to draw vectorial images used in the website.
+
+- <a href="https://affinity.serif.com/en-gb/designer/" target="_blank">Affinity Designer</a>
+    - The project uses **Affinity Designer** version 1.6.5.123, to draw and make background images used in the website.
+
 ## Testing
+
+The following tools were used to check that the website was responsive, and that it looked good on different screen sizes:
+
+- **Mozilla Firefox:** This browser was used to check the behavior of the web page in different screen sizes. Tests consisted in testing the appearance of the fonts used, the aspect of colors and backgrounds, the order and space used by the different elements that make up the web page.
+
+- **Chrome:** This browser was used to check the behavior of the web page in different screen sizes. As in the previous browser, different tests were performed checking the aspect of the font used, colors and backgrounds, and finally, the space used by the elements of the website. In addition, a contrast was made between both browsers, checking for any existing differences.
+
+- **Responsinator:** This website was used to simulate different screen sizes of mobile devices. This was really useful, because it showed in real time the aspect of the tested website, helping to discover different responsiveness problems.
+
+- **Xiaomi Mi A1:** This mobile device was used to test the behavior of the website, using browsers such as Chrome, Mozilla Firefox and DuckDuckGo.
+
+Examples of tests made with the tools used:
 
 1. Header: 
     - Go to the "Header" area.
@@ -65,6 +96,10 @@ Wireframes file: <a href="https://github.com/cotebarrientos/Milestone-Project-He
     - Go to the Contact Form area and try to submit the empty form. After that, verify that an error message about the required fields appears. 
     - Try to submit the form with an invalid email and verify the error message.
     - Try to submit the form with valid data, after that, the webpage is going to refresh. 
+
+The following validator was used to check that the code written in both HTML and CSS complied with the required standards:
+
+- <a href="https://validator.w3.org/" target="_blank">https://validator.w3.org/</a>
 
 ## Deployment
 
@@ -106,14 +141,3 @@ To run the website using Gitpod, in the terminal, type:
     - <a href="https://stackoverflow.com/" target="_blank">Stackoverflow</a>
     - <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/" target="_blank">Bootstrap Documentation</a>
     - <a href="https://www.w3schools.com/" target="_blank">w3schools</a>
-
-
-
-
-
-
-
-
-
-
-
